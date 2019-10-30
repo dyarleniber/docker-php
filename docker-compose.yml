@@ -1,17 +1,29 @@
-php:
-  build: .
-  ports:
-   - "80:80"
-   - "443:443"
-  volumes:
-   - ./www/:/var/www/html
-  links:
-   - db
-
-db:
-  image: mysql:5.7
-  volumes:
-   - /var/lib/mysql
-  environment:
-   - MYSQL_ROOT_PASSWORD=myrootpass
-   - MYSQL_DATABASE=mydatabase
+version: '3'
+services:
+    php:
+        build: .
+        container_name: php-app
+        ports:
+            - '8080:80'
+            - '443:443'
+        volumes:
+            - ./www/:/var/www/html
+        networks:
+            - app-network
+    mysql:
+        image: 'mysql:5.7.22'
+        container_name: mysql-db
+        ports:
+            - '3306:3306'
+        volumes:
+            - '.docker/dbdata:/var/lib/mysql'
+        environment:
+            MYSQL_DATABASE: database
+            MYSQL_USER: default
+            MYSQL_PASSWORD: default
+            MYSQL_ROOT_PASSWORD: root
+        networks:
+            - app-network
+networks:
+    app-network:
+        driver: bridge
