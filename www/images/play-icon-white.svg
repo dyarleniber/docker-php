@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>play-icon-white</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M27.2820375,14.7291883 L10.3351613,4.22394335 C9.87006696,3.94054605 9.25963059,3.92100141 8.78484675,4.19462639 C8.30037345,4.46825137 8,4.98618438 8,5.54320667 L8,26.4559733 C8,27.0129956 8.30037345,27.5309286 8.77515729,27.8045536 C9.00770447,27.9315938 9.25963059,28 9.52124618,28 C9.8022407,28 10.0735457,27.9218214 10.3157824,27.7752366 L27.2626586,17.3579426 C27.7180635,17.0843176 27.999058,16.5761569 27.999058,16.0484516 C28.018437,15.5109739 27.7374425,15.0028133 27.2820375,14.7291883 Z" id="path-1"></path>
+    </defs>
+    <g id="play-icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Mask" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-1"></use>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>facebook-icon-white</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M19.4573959,28 L19.4573959,19.2825577 L22.4136133,19.2825577 L22.8550104,15.9681492 L19.4573959,15.9681492 L19.4573959,13.8216752 C19.4573959,12.8431355 19.7230912,12.1802538 21.1429898,12.1802538 L23,12.1802538 L23,9.12626318 C22.686451,9.08680594 21.5893865,9 20.3394758,9 C17.7289479,9 15.9647882,10.5861812 15.9647882,13.46656 L15.9647882,15.9681492 L13,15.9681492 L13,19.2825577 L15.964074,19.2825577 L15.9583074,28 L6,28 C4.90625,28 4,27.09375 4,26 L4,6 C4,4.90625 4.90625,4 6,4 L26,4 C27.09375,4 28,4.90625 28,6 L28,26 C28,27.09375 27.09375,28 26,28 L19.4573959,28 Z" id="path-1"></path>
+    </defs>
+    <g id="facebook-icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="icon" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-1"></use>
+    </g>
+</svg>
