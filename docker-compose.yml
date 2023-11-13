@@ -13,10 +13,11 @@ services:
 
     # MySQL database service
     db:
-        image: mysql:5.7
+        image: mysql:8
         container_name: mysql-db
         ports:
             - "3306:3306"
+        command: --default-authentication-plugin=caching_sha2_password
         environment:
             MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
             MYSQL_DATABASE: ${DB_DATABASE}
