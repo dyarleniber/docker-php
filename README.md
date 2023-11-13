@@ -12,6 +12,10 @@ The following three separate service containers will be used:
 
 - Set the MySQL environment variables creating a `.env` file based on the `.env.example` file.
 
+```bash
+copy .env.example .env
+```
+
 - Build the app image with the following command:
 
 ```bash
